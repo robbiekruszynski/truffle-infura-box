@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import { UPDATE THIS } from "./abi/abi";
+import { ethers } from 'ethers';
+
 
 function App() {
   return (
