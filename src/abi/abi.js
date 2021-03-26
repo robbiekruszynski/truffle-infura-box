@@ -1,6 +1,38 @@
-export const UPDATE WITH YOUR CONTRACT ABI HERE = [
+export const UPDATE_THIS = [
     {
      
     },
   ];
   
+
+//   example below 
+//   export const simpleStorage = [
+//     {
+//       constant: false,
+//       inputs: [
+//         {
+//           name: "x",
+//           type: "uint256",
+//         },
+//       ],
+//       name: "set",
+//       outputs: [],
+//       payable: false,
+//       stateMutability: "nonpayable",
+//       type: "function",
+//     },
+//     {
+//       constant: true,
+//       inputs: [],
+//       name: "get",
+//       outputs: [
+//         {
+//           name: "",
+//           type: "uint256",
+//         },
+//       ],
+//       payable: false,
+//       stateMutability: "view",
+//       type: "function",
+//     },
+//   ];
