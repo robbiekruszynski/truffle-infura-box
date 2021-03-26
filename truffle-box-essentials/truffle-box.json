@@ -1,6 +1,5 @@
 {
   "ignore": [
-    "README.md",
     ".gitignore"
   ],
   "commands": {
@@ -9,6 +8,6 @@
     "Test contracts": "truffle test"
   },
   "hooks": {
-    "post-unpack": ""
+    "post-unpack": "yarn"
   }
 }
