@@ -1,4 +1,8 @@
-# nstructions on how to USE:
+#  What is this? 
+This is a box that ideally gets you set up witha simple box that gives you the ability to add your own logic without having to worry too much on the sccafolding. You'll of course need to do a few things on your end but this should get you up and going with a full stack dApp that can deploy to the rinkeby testnet!
+
+
+#Instructions on how to use this box:
 
 ## STACK 
 
