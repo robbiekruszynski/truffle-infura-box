@@ -29,15 +29,13 @@ Firsly this requires you have yarn installed
 
 `npm install --global yarn`
 
-![ScreenShot](./src/assets/yarn.gif)
-
 Next up we will be using Wallet-enabled Web3 provider. Use it to sign transactions for addresses derived from a 12 or 24 word mnemonic.
 
 #### HD Wallet-provider
 
 LINK https://github.com/trufflesuite/truffle/tree/master/packages/hdwallet-provider#readme
 
-## We are going to use version 1.2.2 for our hdwalletprovider in this box
+##### We are going to use version 1.2.2 for our hdwalletprovider in this box
 
 `npm install @truffle/hdwallet-provider@1.2.2`
 
@@ -58,9 +56,22 @@ if you need one here is a link
 
 (select 12)
 
-#Instructions on how to use this box:
+# Instructions on how to use this box:
 
-The first thing you'll want to do is get Ganache up and running
+### Step 1: We will start by running the command
+
+`yarn`
+
+![ScreenShot](./src/assets/yarn.gif)
+
+### Step 2: Next get Ganache up and running
+
+navigate to the folder back-end
+
+`cd back-end`
+
+Now that your in the folder holding our truffle.config (along with other files) You can start Ganache
+
 you can do this with the GUI or CLI (be sure your on port: 8545)
 
 if using the CLI go ahaed and run the command
@@ -68,7 +79,13 @@ if using the CLI go ahaed and run the command
 `ganache-cli`
 
 you should now see in your terminal
-(IMG)
+![ScreenShot](./src/assets/CLI.png)
+
+Open up another tab to work out of while keeping the CLI up and running
+
+### Step 3: Define your wallet
+
+Next we will want to define the wallet we will be using to deploy
 
 `truffle console`
 
@@ -79,3 +96,5 @@ you should now see in your terminal
 `const wallet = new HDWalletProvider(mnemonic, "http://localhost:8545");`
 
 `wallet`
+
+![ScreenShot](./src/assets/wallet.png)
