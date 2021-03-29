@@ -140,3 +140,14 @@ Once you've added your logic you can in your terminal run
 `truffle migrate --network rinkeby`
 
 ![ScreenShot](./src/assets/deploy.png)
+
+### Step 7: Tie everything together
+
+You have a build folder that was created when you did a compile / migrate. Pending on how many contracts you have you'll see a JSON file which contants an ABI.
+
+You'll want to add your ABI information to the ABI folder which has an ABI file. (commented out examples live in the file)
+
+You have ethers cooked into the project.
+You have your abi ready to update with
+
+_import { UPDATE_THIS } from "./abi/abi";_ in App.js
