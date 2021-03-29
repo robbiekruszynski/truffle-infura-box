@@ -29,6 +29,8 @@ Firsly this requires you have yarn installed
 
 `npm install --global yarn`
 
+![ScreenShot](./src/assets/yarn.gif)
+
 Next up we will be using Wallet-enabled Web3 provider. Use it to sign transactions for addresses derived from a 12 or 24 word mnemonic.
 
 #### HD Wallet-provider
@@ -58,8 +60,15 @@ if you need one here is a link
 
 #Instructions on how to use this box:
 
-The first thing you'll want to do is get ganache up and running
+The first thing you'll want to do is get Ganache up and running
 you can do this with the GUI or CLI (be sure your on port: 8545)
+
+if using the CLI go ahaed and run the command
+
+`ganache-cli`
+
+you should now see in your terminal
+(IMG)
 
 `truffle console`
 
