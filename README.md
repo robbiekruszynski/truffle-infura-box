@@ -18,7 +18,7 @@ Go ahead and sign up for a new account if you don't have one already
 
 link : https://reactjs.org/docs/getting-started.html
 
-# Make sure you've installed
+## Make sure you've installed
 
 #### yarn
 
@@ -39,4 +39,34 @@ LINK https://github.com/trufflesuite/truffle/tree/master/packages/hdwallet-provi
 
 `npm install @truffle/hdwallet-provider@1.2.2`
 
+#### Ganache
+
+The GUI or CLI both work, use whichever you're more comfortable with
+
+GUI download found here: [https://www.trufflesuite.com/ganache]
+
+Command to install the CLI
+
+`yarn global add ganache-cli`
+
+#### Mnemonic Generator
+
+if you need one here is a link
+[https://iancoleman.io/bip39/]
+
+(select 12)
+
 #Instructions on how to use this box:
+
+The first thing you'll want to do is get ganache up and running
+you can do this with the GUI or CLI (be sure your on port: 8545)
+
+`truffle console`
+
+`const HDWalletProvider = require('@truffle/hdwallet-provider');`
+
+`const mnemonic = '12 words here';`
+
+`const wallet = new HDWalletProvider(mnemonic, "http://localhost:8545");`
+
+`wallet`
