@@ -18,7 +18,17 @@ link : https://reactjs.org/docs/getting-started.html
 
 # Make sure you've installed
 
-HD Wallet-provider
+#### yarn
+
+First this requires you have yarn installed
+On the chance you don't you can find out more more about it here
+
+[https://classic.yarnpkg.com/en/docs/install/#mac-stable]
+
+`npm install --global yarn`
+
+#### HD Wallet-provider
+
 LINK https://github.com/trufflesuite/truffle/tree/master/packages/hdwallet-provider#readme
 
 ## We are going to use version 1.2.2 for our hdwalletprovider for this box
@@ -26,8 +36,3 @@ LINK https://github.com/trufflesuite/truffle/tree/master/packages/hdwallet-provi
 `npm install @truffle/hdwallet-provider@1.2.2`
 
 #Instructions on how to use this box:
-
-First this requires you have yarn installed
-On the chance you don't you can find out more more about it here
-
-[https://classic.yarnpkg.com/en/docs/install/#mac-stable]
