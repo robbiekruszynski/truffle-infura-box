@@ -101,7 +101,19 @@ Next we will want to define the wallet we will be using to deploy
 
 ##### the first address you see from your newly generated wallet you'll need to fund with Rinkeby
 
-### Step 4: Acquire Rinkeby
+### Step 4: Get set up with Infura
+
+Head over to your dashboard on Infura
+grab your project ID and update the secrets.json file with that ID
+Remove from string.
+
+While you are here go ahead and add the same mnemonic you used for your wallet. Keep your mnemonic in a string.
+
+Delete the IMPORTANT NOTE that lives in the file. That is just to remind you of the important of keeping this information secure.
+
+![ScreenShot](./src/assets/infura.png)
+
+### Step 5: Acquire Rinkeby
 
 If you need Rinkeby a faucet can be found here
 
