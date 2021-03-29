@@ -128,3 +128,15 @@ next make sure you fund the first address created from your
 in my instance it would be
 
 0xcb19d6140fa76027ff8960c12f8da8c3f7523123
+
+Going ahead and send that X amount of testEth, I always send 1, because it's test ETH.
+
+### Step 7: Update and Deploy
+
+Now that your address you're going to use to deploy is funded with Rinkeby it's time to add your logic to the YourContractHere.sol in the contract folder along with the 2_update_this.js file in the migrations folder.
+
+Once you've added your logic you can in your terminal run
+
+`truffle migrate --network rinkeby`
+
+![ScreenShot](./src/assets/deploy.png)
