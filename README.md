@@ -143,11 +143,24 @@ Once you've added your logic you can in your terminal run
 
 ### Step 7: Tie everything together
 
+To spin up the bones of the project run
+
+`yarn start`
+
+which should deploy at localhost: 3000
+
+![ScreenShot](./src/assets/TTB.png)
+
 You have a build folder that was created when you did a compile / migrate. Pending on how many contracts you have you'll see a JSON file which contants an ABI.
 
 You'll want to add your ABI information to the ABI folder which has an ABI file. (commented out examples live in the file)
 
 You have ethers cooked into the project.
-You have your abi ready to update with
 
-_import { UPDATE_THIS } from "./abi/abi";_ in App.js
+You have pathing for the abi cooked in.
+
+(_import { UPDATE_THIS } from "./abi/abi";_ in App.js)
+
+### Step 8: BUIDL
+
+Have fun and BUIDL!
