@@ -98,3 +98,21 @@ Next we will want to define the wallet we will be using to deploy
 `wallet`
 
 ![ScreenShot](./src/assets/wallet.png)
+
+##### the first address you see from your newly generated wallet you'll need to fund with Rinkeby
+
+### Step 4: Acquire Rinkeby
+
+If you need Rinkeby a faucet can be found here
+
+[https://faucet.rinkeby.io/]
+
+next make sure you fund the first address created from your
+
+`wallet` command
+
+![ScreenShot](./src/assets/addy.png)
+
+in my instance it would be
+
+0xcb19d6140fa76027ff8960c12f8da8c3f7523123
